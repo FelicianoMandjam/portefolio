@@ -12,3 +12,7 @@
     })
 })();
 
+function openVideo(event, videoUrl) {
+    event.preventDefault();
+    window.open(videoUrl, '_blank', 'width=800,height=600');
+}

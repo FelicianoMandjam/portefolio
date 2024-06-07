@@ -994,3 +994,24 @@ section {
 .span_danger{
   color: red;
 }
+
+.symfony_projet{
+display: flex;
+flex-direction: row;
+}
+
+.code_src{
+  height: 50px;
+  width: 90px;
+  background-color: #e673643f;
+  color: white;
+  border-radius: 10px;
+  border-color: red;
+  
+}
+
+.code_src:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+}
